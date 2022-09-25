@@ -1,0 +1,13 @@
+name: SMCAnonymousSpectator
+version: '${project.version}'
+main: net.simplymc.anonymousspectator.AnonymousSpectatorPlugin
+api-version: 1.19
+depend: [ ProtocolLib ]
+authors: [ Nomad ]
+permissions:
+  anonspec.hide:
+    description: "Allows the player to go in to spectator mode without it showing in the tab list"
+    default: false
+  anonspec.bypass:
+    description: "Allows the player too see that a player is in spectator mode even if they have 'anonspec.hide'"
+    default: false
